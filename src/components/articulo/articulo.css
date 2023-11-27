@@ -1,0 +1,43 @@
+.articulo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+
+}
+
+.texto-anuncio {
+    flex: 0;
+    padding: 0 40px;
+}
+.anuncio img {
+    height: 700px;
+}
+.texto-anuncio p {
+    font-size: 22px;
+}
+.texto-anuncio button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    color: black;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.texto-anuncio button:hover {
+    background-color: #3498db;
+    color: white;
+}
